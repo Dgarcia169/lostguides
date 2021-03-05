@@ -1,0 +1,700 @@
+@import url("css/style.css");
+
+.postsFrontp {
+    text-transform: capitalize !important;
+}
+
+.relative {
+}
+
+.boton {
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-right: 0;
+    text-align: right;
+}
+
+.postText {
+    text-transform: capitalize;
+}
+
+.tagsTitle {
+    color: #adabab;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.tags {
+    width: 33px;
+    height: 27px;
+    padding: 7px 14px 7px 14px;
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+    line-height: 27px;
+    flex: 0 0 27px;
+    background: #363843;
+    color: #a1a1a1;
+    font-size: 13px;
+    font-weight: 700;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    
+}
+
+.tags:hover {
+    background-color: #ff5917;
+    color: #FFF;
+}
+
+.btn-container {
+    width: 100%;
+    text-align: right;
+}
+
+.btn-smaller {
+    margin-top: 30px;
+    padding: 7px 15px !important;
+    font-size: 12px;
+}
+
+.text-container p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+a, a:hover, a:focus {
+    color: #ff5917;
+}
+
+/* QUITAR TITULO NUBE DE TAG */
+
+.widgettitle {
+    display: none;
+}
+
+/* ESTILOS NUBE DE TAG */
+
+.tagcloud {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tagcloud a {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    display: block;
+    padding: 0 26px;
+    /*-webkit-clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important; /* polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%); */
+    background: #363843;
+    font-size: 8pt !important;
+    margin-bottom: 10px;
+    
+    margin-right: 10px;
+}
+
+.tagcloud a:hover, .tagcloud a:focus {
+    background: #ff5917;
+}
+
+.archives ul li a {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    font-family: 'Oxanium', cursive;
+    color: #fff;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.archives ul li a:hover, .archives ul li a:focus {
+    color: #ff5917;
+}
+
+.orange{
+    color: #ff5917 !important;
+}
+
+.breadcrumb-content p {
+    color: white !important;
+}
+
+.breadcrumb-content {
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.breadcrumb-content h2 a {
+    color: white !important;
+}
+
+.breadcrumb-content h2 a:hover {
+ color: #ff5917 !important;
+}
+
+.table-tr td, .table-tr tr, .table-tr th  {
+    padding: 15px;
+    text-align: center;
+    border: 0;
+}
+
+.table-tr td, .table-tr td a, .table-tr th {
+    color: #fff;
+}
+
+.table-tr td a:hover {
+    color: #ff5917;
+}
+
+tr, th, td {
+    vertical-align: middle !important;
+}
+
+.table {
+    margin: 0;
+}
+
+comment-form-cookies-consent {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+/* CSS DE LAS PROGRESS BAR (MAIN.JS) */
+
+.ldBar {
+  position: relative;
+}
+.ldBar.label-center > .ldBar-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* text-shadow: 0 0 3px #fff; */
+  color: #FFF;
+}
+.ldBar-label:after {
+  content: "%";
+  display: inline;
+  color: #FFF;
+}
+.ldBar.no-percent .ldBar-label:after {
+  content: "";
+}
+
+.ldBar path.mainline {
+    stroke-width: 7;
+    stroke: #ff5917;
+    stroke-linecap: round;
+  }
+  
+.mcenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* https://loading.io/progress/ */
+
+h6 {
+    font-weight: 600;
+}
+
+/* ESTILOS COMENTARIOS */
+
+.comment-form-cookies-consent {
+    align-items: center !important;
+}
+
+.comment-form-cookies-consent input {
+    margin: 0px 5px 0px 0px;
+}
+
+#wp-comment-cookies-consent {
+    width: auto;
+}
+
+.comment-form-public {
+    align-items: center !important;
+}
+
+.comment-form-public input {
+    margin: 0px 5px 0px 0px;
+}
+
+img {
+    width: 100%;
+    min-width: 32px;
+    height: auto;
+}
+
+.vcard {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.vcard img {
+    width: auto !important;
+    margin-right: 10px;
+}
+
+cite {
+    margin-bottom: 30px;
+}
+
+.commentmetadata {
+    margin-top: 8px;
+}
+
+.no-hover:hover {
+    color: #FFF;
+}
+
+.submit:hover {
+    background: #ff5917;
+    transition: all 0.3s ease-out 0s;
+}
+
+.submit:focus {
+    background: #ff5917a1;
+    transition: all 0.1s ease-out 0s;
+}
+
+.submit {
+    color: #FFF !important;
+    transition: all 0.3s ease-out 0s;
+}
+
+.comment-body {
+    background: #242531;
+    margin-bottom: 20px;
+    padding: 31px 30px;
+    align-items: center;
+    border-radius: 4px;
+    display: flex;
+}
+
+.comment-avatar-info a {
+    font-size: 15px;
+}
+
+.comment-avatar-thumb {
+    margin-bottom: auto;
+    margin-right: 30px;
+    width: 64px !important; 
+    flex: 0 0 64px;
+}
+
+.children {
+    margin-top: 30px;
+    margin-left: -60px;
+}
+
+.children li div div ul {
+    margin-left: -94px;
+}
+
+.blog-comment ul li {
+    margin-bottom: 0;
+}
+
+.children li, .children li div {
+    padding: 0 !important;
+    padding-top: 5px !important;
+}
+
+.photo {
+    max-width: 64px;
+}
+
+.comment-body {
+    width: 100%;
+}
+
+.comment-reply {
+    float: right;
+}
+
+.comment-body p {
+}
+
+.comment-text {
+    flex: 1;
+    margin-bottom: auto;
+}
+
+.comment-avatar-info h4 {
+    width: 100%;
+}
+
+.says {
+    display: none;
+}
+
+.url {
+    outline: medium none;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Oxanium', cursive;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2;
+    list-style: none;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 4px solid #404040;
+    height: auto;
+    vertical-align: middle;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* FIN COMENTARIOS */
+
+
+.card {
+    background: #292b33;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #a1a1a1;
+    font-style: normal;
+    border-radius: 6px;
+    box-shadow: 0px 3px 21px 0px rgb(13 13 17 / 50%);
+    overflow: hidden;
+}
+
+.scale:hover {
+    transform: scale(1.05);
+    transition: all 0.15s ease-out 0s;
+}
+
+.scale {
+    transform: scale(1);
+    transition: all 0.15s ease-out 0s;
+}
+
+.scale:hover .card-title {
+    color: #FFF !important;
+    transition: all 0.15s ease-out 0s;
+}
+
+.scale .card-title {
+    color: rgba(255, 255, 255, 0.712) !important;
+    transition: all 0.15s ease-out 0s;
+}
+
+.lastentries li {
+    margin-bottom: 10px;
+}
+
+.lastentries li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff59179b;
+}
+
+.lastentries li a:hover {
+    color: #ff5917;
+}
+
+.categorylist li {
+    margin-bottom: 10px;
+}
+
+.categorylist li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff59179b;
+}
+
+.categorylist li a:hover {
+    color: #ff5917;
+}
+
+.gray {
+    color: #a1a1a1;
+}
+
+
+/* PRIVATE ZONE STYLES */
+
+.privatelinks a {
+    -moz-user-select: none;
+    background: url(img/bg/btn_bg.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 16px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.privatelinks a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    background: #dd4407;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.privatelinks a:hover::after {
+	bottom: 0;
+}
+.privatelinks a:hover {
+	color: #fff;
+}
+
+.privatelinks a:focus{
+	text-decoration: none;
+	outline: none;
+	box-shadow: none;
+}
+
+/* Estilos formulario login */
+
+#loginform {
+    padding: 0 75px;
+}
+#loginform input,
+#loginform textarea {
+    width: 100%;
+    border: 1.5px solid #2d333c;
+    background: #252a32;
+    font-size: 16px;
+    color: #a1a1a1;
+    padding: 16px 25px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+#loginform input::placeholder,
+#loginform textarea::placeholder {
+    font-size: 16px;
+    color: #a1a1a1;
+    font-weight: 500;
+}
+#loginform textarea {
+    min-height: 180px;
+    max-height: 180px;
+}
+#loginform #idsubmit {
+    width: 100%;
+    background-image: none;
+    background-color: #ff5917;
+    border-radius: 0;
+    padding: 19px 30px;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 600;
+}
+#loginform #idsubmit::after {
+    display: none;
+}
+
+/* Fin estilos formulario login */
+
+/* END PRIVATE ZONE STYLES */
+
+/* ESTILOS PAGINACION */
+
+.screen-reader-text {
+    display: none;
+}
+
+.nav-links a, .nav-links span {
+    display: block;
+    width: 38px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    border: 2px solid #7d7d7d;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 12px;
+}
+
+.current {
+    border: 2px solid #ff5917 !important;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a + a, .nav-links span + a, .nav-links a + span {
+    margin-left: 12px;
+}
+
+.pagination-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fs20 {
+    font-size: 18px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.blog-details-bottom {
+    position: relative;
+}
+
+.blog-post-share {
+    position: absolute !important;
+    top: 20px;
+    right: 10px;
+}
+
+.blog-post-bottom {
+    position: relative;
+}
+
+#consent {
+    width: auto !important;
+}
+
+.cursornormal {
+    cursor: context-menu;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.ptitle {
+    font-size: 16px !important;
+    font-style: bold !important;
+    margin-bottom: 0 !important;
+}
+
+.pegiimg {
+    width: 41.136363px !important;
+    height: 50px !important;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.datenumber {
+    width: 33px !important;
+    height: 27px !important;
+    text-align: center !important;
+    line-height: 27px !important;
+    flex: 0 0 27px !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #a1a1a1 !important;
+    font-style: normal !important;
+}
+
+.meta-nav {
+    display: none !important;
+}
+
+.next, .prev {
+    width: 100px !important;
+}
+
+.indexpagination nav div .next, .indexpagination nav div .prev {
+    width: 38px !important;
+}
+
+#loginform {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 500px;
+}
+
+.login-remember label {
+    width: 100%;
+}
+
+#idremember {
+    float: left;
+    width: auto !important;
+    margin: 10px !important;
+}
+
+.center2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.center2 li {
+    margin-left: auto;
+    margin-right: auto;
+}
